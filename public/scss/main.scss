@@ -1,0 +1,16 @@
+// Required Core Stylesheet
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+// base styles
+@import 'base/base.scss';
+@import 'base/typography.scss';
+
+// component styles 
+@import 'components/btns.scss';
+
+// section styles 
+@import 'sections/header.scss';
+@import 'sections/about.scss';

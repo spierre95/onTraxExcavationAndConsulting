@@ -1,0 +1,20 @@
+{
+  "name": "OnTraxExcavationAndContracting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass ./public/scss/main.scss ./public/style.css -w",
+    "compile-js": "browserify ./public/js/main.js -o ./public/js/dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "node-sass": "^4.9.4"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0"
+  }
+}

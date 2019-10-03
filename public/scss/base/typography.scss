@@ -1,0 +1,40 @@
+body {
+    font-family: "Lato", "sans-serif";
+    font-weight: 400;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .heading-primary {
+    
+
+  
+    &--slogan {
+      color: #fff;
+      display: block;
+      font-weight: 300;
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    &--main {
+      color: #fff;
+      display: block;
+      text-align: center;
+      font-size: 3rem;
+      padding: 30px;
+    }
+  }
+
+  .heading-secondary {
+    display: block;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+  }
