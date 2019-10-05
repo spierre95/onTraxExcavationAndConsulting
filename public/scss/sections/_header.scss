@@ -1,18 +1,6 @@
 
 .header {
-  width: 100%;
-  max-width: 100%;
-  background-color: #000;
-}
-
-
-.page-container {
-  display: flex;
-  height: 100vh;
-}
-
-.banner {
-  flex: 0 0 50%;
+  height: 80vh;
   position: relative;
   background-image: linear-gradient(
       to right bottom,

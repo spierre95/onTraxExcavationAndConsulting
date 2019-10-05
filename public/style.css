@@ -124,6 +124,10 @@ html {
 body {
   box-sizing: border-box; }
 
+.page-container {
+  display: flex;
+  flex-direction: column; }
+
 body {
   font-family: "Lato", "sans-serif";
   font-weight: 400;
@@ -172,28 +176,19 @@ a {
     background-color: #00ccff; }
 
 .header {
-  width: 100%;
-  max-width: 100%;
-  background-color: #000; }
-
-.page-container {
-  display: flex;
-  height: 100vh; }
-
-.banner {
-  flex: 0 0 50%;
+  height: 80vh;
   position: relative;
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("./img/hero.jpg");
   background-size: cover;
   background-position: top; }
-  .banner__text-box {
+  .header__text-box {
     position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;
     width: 60rem;
     transform: translate(-50%, -50%); }
-  .banner__btn-box {
+  .header__btn-box {
     margin-top: 5rem;
     display: flex;
     justify-content: space-evenly; }
