@@ -224,7 +224,7 @@ a {
   flex-direction: column;
   flex: 0 0 50%;
   padding: 4rem 0;
-  margin: 0 50px;
+  margin: 0 5rem;
   align-self: center;
   justify-content: center; }
   .biography__image-box {
@@ -250,8 +250,8 @@ a {
 .services {
   flex: 0 0 50%;
   padding: 6rem 0;
-  margin: 0 50px;
-  max-width: 300px; }
+  margin: 0 5rem;
+  max-width: 30rem; }
   .services__list {
     margin: 5px 0;
     font-size: 1.6rem; }

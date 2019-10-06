@@ -17,7 +17,7 @@
     flex-direction: column;
     flex: 0 0 50%;
     padding: 4rem 0;
-    margin: 0 50px;
+    margin: 0 5rem;
     align-self: center;
     justify-content: center;
 
@@ -27,7 +27,6 @@
         height: 30rem;
         margin: 0 auto;
        
-
         img {
             object-fit: cover;
             width: 100%;
@@ -52,8 +51,8 @@
 .services {
     flex: 0 0 50%;
     padding: 6rem 0;
-    margin: 0 50px;
-    max-width: 300px;
+    margin: 0 5rem;
+    max-width: 30rem;
     &__list {
       margin: 5px 0;
       font-size: 1.6rem;
