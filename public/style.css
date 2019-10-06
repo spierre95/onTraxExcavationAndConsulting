@@ -155,9 +155,10 @@ a {
 .heading-secondary {
   display: block;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 0.5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #900; }
 
 .btn__primary {
   cursor: pointer;
@@ -206,3 +207,53 @@ a {
 
 .glide {
   width: 60rem; }
+
+.about {
+  display: flex;
+  padding: 4rem 0;
+  justify-content: center;
+  background-color: #f9f9f9; }
+  .about-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+    height: 100%; }
+
+.biography {
+  flex-direction: column;
+  flex: 0 0 50%;
+  padding: 4rem 0;
+  margin: 0 50px;
+  align-self: center;
+  justify-content: center; }
+  .biography__image-box {
+    display: flex;
+    width: 30rem;
+    height: 30rem;
+    margin: 0 auto; }
+    .biography__image-box img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      box-shadow: 5px 5px 25px rgba(60, 60, 60, 0.1); }
+  .biography__text-box {
+    max-width: 45rem;
+    font-size: 1.6rem;
+    padding: 4rem 0;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center; }
+
+.services {
+  flex: 0 0 50%;
+  padding: 6rem 0;
+  margin: 0 50px;
+  max-width: 300px; }
+  .services__list {
+    margin: 5px 0;
+    font-size: 1.6rem; }
+    .services__list-item {
+      padding: 1rem 0; }
