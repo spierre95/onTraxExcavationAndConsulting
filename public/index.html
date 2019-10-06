@@ -24,21 +24,25 @@
         <div class="header__text-box">
           <h1 class="heading-primary">
             <span class="heading-primary--slogan"
-              >East Hants home owner serving <br />
-              East Hants home owners</span
+              >Lorem ipsum dolor sit amet consectetur
+             Lorem ipsum dolor sit.</span
             >
           </h1>
           <div class="header__btn-box">
-            <div class="btn btn__primary btn__primary-cta-1">
-              Learn More
-            </div>
-            <div class="btn btn__primary btn__primary-cta-2">
-              Get a Quote
-            </div>
+            <a href="#about-section">
+              <div class="btn btn__primary btn__primary-cta-1">
+                Learn More
+              </div>
+            </a>
+            <a href="#contact-section">
+              <div class="btn btn__primary btn__primary-cta-2">
+                Get a Quote
+              </div>
+            </a>
           </div>
         </div>
       </header>
-      <section class="about">
+      <section id="about-section" class="about">
         <div class="about-container">
           <div class="biography">
             <div class="biography__image-box">
@@ -60,69 +64,183 @@
             </h2>
             <ul class="services__list">
               <li class="services__list-item">Snow removal</li>
-              <li class="services__list-item">Redoing Gravel Drive Ways</li>
-              <li class="services__list-item">LandScaping</li>
+              <li class="services__list-item">Grading</li>
+              <li class="services__list-item">Landscaping</li>
               <li class="services__list-item">Drainage</li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="images">
+      <section id="images-section" class="images">
         <div class="images__container">
-                <div class="images__title-box">
-                  <div class="images__title-before">
-                    <h2 class="heading-secondary">
-                      Before
-                    </h2>
-                  </div>
-                  <div class="images__title-after">
-                    <h2 class="heading-secondary">
-                      After
-                    </h2>
-                  </div>
-                </div>
-              <div class="glide">
-                <div class="glide__track" data-glide-el="track">
-                  <div class="glide__slides">
-                    <img
-                      class="glide__slide"
-                      src="./img/side-of-house-before.jpg"
-                      alt=""
-                    />
-                    <img
-                      class="glide__slide"
-                      src="./img/side-of-house-after.jpg"
-                      alt=""
-                    />
-                    <img class="glide__slide" src="./img/ditch-before.jpg" alt="" />
-                    <img class="glide__slide" src="./img/ditch-after.jpg" alt="" />
-                    <img
-                      class="glide__slide"
-                      src="./img/drive-way-before.jpg"
-                      alt=""
-                    />
-                    <img
-                      class="glide__slide"
-                      src="./img/drive-way-after.jpg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="glide__arrows" data-glide-el="controls">
-                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                    prev
-                  </button>
-                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                    next
-                  </button>
-                </div>
+          <div class="images__title-box">
+            <div class="images__title-before">
+              <h2 class="heading-secondary">
+                Before
+              </h2>
+            </div>
+            <div class="images__title-after">
+              <h2 class="heading-secondary">
+                After
+              </h2>
+            </div>
+          </div>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <div class="glide__slides">
+                <img
+                  class="glide__slide"
+                  src="./img/side-of-house-before.jpg"
+                  alt=""
+                />
+                <img
+                  class="glide__slide"
+                  src="./img/side-of-house-after.jpg"
+                  alt=""
+                />
+                <img class="glide__slide" src="./img/ditch-before.jpg" alt="" />
+                <img class="glide__slide" src="./img/ditch-after.jpg" alt="" />
+                <img
+                  class="glide__slide"
+                  src="./img/drive-way-before.jpg"
+                  alt=""
+                />
+                <img
+                  class="glide__slide"
+                  src="./img/drive-way-after.jpg"
+                  alt=""
+                />
               </div>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                prev
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                next
+              </button>
+            </div>
+          </div>
         </div>
-      
       </section>
-      <section class="contact"></section>
+      <section id="contact-section" class="contact">
+        <div class="contact__container">
+          <form id="contact" class="form" action="POST" data-netlify="true">
+            <h2 class="heading-secondary">
+              Contact
+            </h2>
+            <div class="form__group">
+              <input
+                id="name"
+                class="form__input"
+                name="name"
+                placeholder="Your name"
+                type="text"
+                tabindex="1"
+                required
+              />
+            </div>
+            <div class="form__group">
+              <input
+                id="email"
+                class="form__input"
+                name="email"
+                ype="email"
+                tabindex="2"
+                placeholder="Your Email Address"
+                t
+                required
+              />
+            </div>
+            <div class="form__group">
+              <input
+                id="subject"
+                class="form__input"
+                name="subject"
+                placeholder="Subject"
+                type="text"
+                tabindex="3"
+                required
+              />
+            </div>
+            <div class="form__group">
+              <textarea
+                id="message"
+                class="form__textarea"
+                name="message"
+                placeholder="Type your message here...."
+                tabindex="4"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <div class="form__group">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+            <div>
+              <button
+                name="submit"
+                class="btn__primary"
+                type="submit"
+                id="contact-submit"
+                data-submit="...Sending"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+          <div class="contact__info">
+            <div class="contact__info-hours">
+              <h4>Our Business Hours:</h4>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Monday</td>
+                    <td>10 AM - 8 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>10 AM - 8 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>10 AM - 8 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>10 AM - 8 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>10 AM - 8 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>11 AM - 6&nbsp;PM</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday</td>
+                    <td>11 AM - 6&nbsp;PM</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="contact__info-phone">
+              <span>(902)-203-5732</span>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer class="footer"></footer>
     </div>
+    <!-- glide js javascript -->
     <script src="js/dist/bundle.js"></script>
   </body>
 </html>

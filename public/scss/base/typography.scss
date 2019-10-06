@@ -11,8 +11,6 @@ body {
   
   .heading-primary {
     
-
-  
     &--slogan {
       color: #fff;
       display: block;
@@ -24,9 +22,10 @@ body {
 
     &--main {
       color: #fff;
+      font-weight: 300;
       display: block;
       text-align: center;
-      font-size: 3rem;
+      font-size: 4rem;
       padding: 30px;
     }
   }
